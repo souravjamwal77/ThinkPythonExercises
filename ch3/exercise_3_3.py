@@ -33,11 +33,37 @@ def print_row_line(num_of_grids):
 
 
 
+def print_bar(num_of_grids):
+    """Prints the bar (|) sign on the cosole.
+    """
+    for _ in range(num_of_grids + 1):
+        print("|".ljust(10), end="")
 
 
 
+def print_col(num_of_grids):
+    """Prints the required number of columns.
+    """
+    for _ in range(4):
+        print("")
+        print_bar(num_of_grids)
+    print("")
+    print_row_line(num_of_grids)
 
 
+def draw_grid(num_of_grids=1):
+    """Prints the number of required grids.
+
+    Args:
+        num_of_grids (int): Number of Square grids required on console.`
+    """
+    print_row_line(num_of_grids)
+    for _ in range(num_of_grids):
+        print_col(num_of_grids)
+
+    
+
+draw_grid(int(input()))
 
 
 
