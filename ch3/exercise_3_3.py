@@ -1,21 +1,43 @@
 """ This module contains the answer to exercise 3 of Chapter 3.
 """
 
-def print_hyphens():
-    """ Prints 4 hyphen (-) symbol on the console.
-    """
-    print(" -" * 4, end=" ")
-
 
 def print_add_sign():
-    """Prints the Add(+) sign on the console.
+    """Prints the add (+) sign on the corners.
     """
-    
+    print("+ ", end="")
 
 
-
-def draw_grid():
-    """Draws a grid with - as lines and + as corner point.
+def print_hyphens():
+    """Prints the hyphens (-).
     """
-    print("+")
-    print("")
+    print("- ", end="")
+
+
+
+def print_row_line(num_of_grids):
+    """Prints one row line for the one square grid.
+    """
+    if num_of_grids < 2:
+        print_add_sign()
+        for _ in range(4):
+            print_hyphens()
+        print_add_sign()
+    elif num_of_grids >= 2:
+        for _ in range(num_of_grids):
+            print_add_sign()
+            for _ in range(4):
+                print_hyphens()
+        print_add_sign()
+
+
+
+
+
+
+
+
+
+
+
+
