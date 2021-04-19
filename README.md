@@ -4,4 +4,5 @@ Please try to silve those answers once by yourself and then you can look at my a
 
 
 ### Table of Contents
-##### [Answer to Chapter 3](https://github.com/souravjamwal77/ThinkPythonExercises/tree/main/ch3)
+##### [Answers to Chapter 3](https://github.com/souravjamwal77/ThinkPythonExercises/tree/main/ch3)
+##### [Answers to Chapter 4](https://github.com/souravjamwal77/ThinkPythonExercises/tree/main/ch4)
